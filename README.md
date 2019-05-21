@@ -1,8 +1,7 @@
 ## Collated resourse for Self learning Software
 
-## CSS 
-## Javascript
-## Html
 
 
-[CSS Cheat Sheet](CSS_cheat_sheet)
+### [CSS Cheat Sheet](CSS)
+### [Javascript Cheat Sheet](javascript)
+### [BootStrat cheat Sheet ](bootstrap)
