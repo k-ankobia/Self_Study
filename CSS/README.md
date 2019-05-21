@@ -2,5 +2,4 @@
 
 Self Leraning CSS techniques. 
 
-![HomePage](CSS/images/CSS_example_.jpg)
-
+![HomePage](https://i.postimg.cc/9FL5Ntj8/homepage.jpg)
