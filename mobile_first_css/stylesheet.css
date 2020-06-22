@@ -1,0 +1,166 @@
+:root {
+	--primary-color: brown;
+	--secondary-color: #7c0000;
+}
+
+* {
+	box-sizing: border-box;
+	border: 0;
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: none;
+}
+
+.app-header {
+	background-color: var(--primary-color);
+	box-shadow: 3px 3px 10px grey;
+}
+
+.app-header .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 15px 10px;
+}
+
+.app-header .logo {
+	width: 300px;
+	margin-bottom: 15px;
+}
+
+.app-header input[type="text"] {
+	padding: 7px;
+	width: 250px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px black;
+	border: 1px white;
+}
+
+.subheader {
+	background-color: var(--secondary-color);
+	color: white;
+	margin: 0 auto 16px auto;
+	width: 90%;
+	font-size: 14;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.subheader p {
+	margin-bottom: 4px;
+}
+
+.subheader img {
+	width: 70px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+
+.grid .item {
+	display: flex;
+	flex-direction: column;
+	border: 1px #cccccc solid;
+	padding: 10px;
+	box-shadow: 1px 1px 2px #cccccc;
+}
+
+.grid .item img {
+	width: 30px;
+	align-self: flex-end;
+}
+
+.grid .item h4 {
+	margin-bottom: 5px;
+}
+
+.grid .item p {
+	font-size: 14px;
+	color: var(--secondary-color);
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.app-footer {
+	background: #f4f4f4;
+	color: #444;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.app-footer ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	list-style: none;
+	flex-shrink: 0;
+}
+
+.app-footer ul li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+}
+
+.app-footer ul li i {
+	font-size: 22px;
+}
+
+/* splash  */
+#splash {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--primary-color);
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: opacity 1s;
+}
+
+#splash img {
+	width: 300px;
+}
+
+#splash.fade {
+	opacity: 0;
+}
+@media (min-width: 768px) {
+	.grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.grid .item img {
+		width: 60px;
+	}
+}

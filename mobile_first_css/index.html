@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./stylesheet.css" />
+		<!-- font awsome cdn -->
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+		/>
+
+		<!-- roboto font from google  -->
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Mobile First Pharmacy Store</title>
+	</head>
+	<div id="splash">
+		<img class="logo" src="./images/logo.png" alt="" />
+	</div>
+	<div class="content">
+		<header class="app-header">
+			<div class="container">
+				<img src="./images/logo.png" alt="logo" class="logo" />
+				<input type="text" class="search" placeholder="Search..." />
+			</div>
+		</header>
+
+		<div class="subheader">
+			<div>
+				<p>Now delivering Rx + more</p>
+				<p>Find out now <i class="fa fa-chevron-right"></i></p>
+			</div>
+			<img src="./images/delivery.png" alt="delivery image" class="delivery-img" />
+		</div>
+
+		<div class="grid container">
+			<div class="item">
+				<h4>Pharmacy</h4>
+				<p class="desc">2Rxs ready for refill</p>
+				<img src="./images/medicine.png" alt="" />
+			</div>
+			<div class="item">
+				<h4>Deals & Rewards</h4>
+				<p class="desc">2 TraversyCare offers expiring</p>
+				<img src="./images/medal.png" alt="" />
+			</div>
+			<div class="item">
+				<h4>Clinic</h4>
+				<p class="desc"></p>
+				<img src="./images/nurse.png" alt="" />
+			</div>
+			<div class="item">
+				<h4>Shop</h4>
+				<p class="desc">Free shipping on orders $25+</p>
+				<img src="./images/shop.png" alt="" />
+			</div>
+			<div class="item">
+				<h4>Photo</h4>
+				<p class="desc"></p>
+				<img src="./images/photo.png" alt="" />
+			</div>
+			<div class="item">
+				<h4>Weekly Ad</h4>
+				<p class="desc">View your weekly ad</p>
+				<img src="./images/newspaper.png" alt="" />
+			</div>
+		</div>
+	</div>
+
+	<footer class="app-footer">
+		<ul>
+			<li>
+				<i class="fa fa-heart"></i>
+				Home
+			</li>
+			<li>
+				<i class="fa fa-barcode"></i>
+				Show Card
+			</li>
+			<li>
+				<i class="fa fa-user"></i>
+				Account
+			</li>
+			<li>
+				<i class="fa fa-map-marker"></i>
+				Find Store
+			</li>
+		</ul>
+	</footer>
+	<script>
+		setTimeout(() => {
+			document.getElementById("splash").classList.add("fade");
+		}, 3000);
+	</script>
+</html>
