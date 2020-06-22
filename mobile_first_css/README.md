@@ -1,4 +1,4 @@
-### Mobile first Scc Design
+### Mobile first Responsive Design
 
 #### Desktop view
 
