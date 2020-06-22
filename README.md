@@ -1,9 +1,9 @@
 ## Collated resourse for Self learning Software
 
-### [CSS Cheat Sheet](CSS)
+#### [Responsive mobile design](https://github.com/k-ankobia/Self_Study/tree/master/mobile_first_css)
 
-### [Javascript BASICS](javascript_basics)
+#### [CSS Cheat Sheet](CSS)
 
-### [post request testing. axios](javascript_basics)
+#### [Javascript BASICS](javascript_basics)
 
-### [Responsive mobile design](https://github.com/k-ankobia/Self_Study/tree/master/mobile_first_css)
+#### [post request testing. axios](javascript_basics)
