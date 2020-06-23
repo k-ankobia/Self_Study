@@ -1,0 +1,86 @@
+{
+  "title": "css walkthrough",
+  "steps": [
+    {
+      "file": "style.css",
+      "line": 27,
+      "description": "used to resize backgroud color ",
+      "selection": {
+        "start": {
+          "line": 26,
+          "character": 2
+        },
+        "end": {
+          "line": 28,
+          "character": 37
+        }
+      }
+    },
+    {
+      "file": "style.css",
+      "line": 32,
+      "description": "Flex to center all items",
+      "selection": {
+        "start": {
+          "line": 31,
+          "character": 1
+        },
+        "end": {
+          "line": 33,
+          "character": 26
+        }
+      }
+    },
+    {
+      "file": "style.css",
+      "line": 40,
+      "description": "parent dive needs to be position relative for absolute to work\n",
+      "selection": {
+        "start": {
+          "line": 35,
+          "character": 1
+        },
+        "end": {
+          "line": 35,
+          "character": 21
+        }
+      }
+    },
+    {
+      "file": "style.css",
+      "line": 38,
+      "description": "`header::after` to create another div in position 0,0 for overlay div",
+      "selection": {
+        "start": {
+          "line": 38,
+          "character": 1
+        },
+        "end": {
+          "line": 38,
+          "character": 15
+        }
+      }
+    },
+    {
+      "file": "style.css",
+      "line": 45,
+      "description": "set transparent overlay wither rgba(0,0,0, `alpha`)",
+      "selection": {
+        "start": {
+          "line": 45,
+          "character": 1
+        },
+        "end": {
+          "line": 46,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "style.css",
+      "line": 49,
+      "description": "selects everything in the header hence bring text to front "
+    }
+  ],
+  "ref": "031d61b41d2208408a337c3590905b4d3bde8ab9"
+}
