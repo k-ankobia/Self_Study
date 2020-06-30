@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<button class="call">Press me</button>
+
+		<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+		<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+		<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+		<!-- Add Firebase products that you want to use -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-functions.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+				apiKey: "AIzaSyCivjM0NSpC1gG0m-TG2YI82nntBJSEt1c",
+				authDomain: "ecommerestoredb.firebaseapp.com",
+				databaseURL: "https://ecommerestoredb.firebaseio.com",
+				projectId: "ecommerestoredb",
+				storageBucket: "ecommerestoredb.appspot.com",
+				messagingSenderId: "24835648472",
+				appId: "1:24835648472:web:3d160b6060155b54c120ad",
+				measurementId: "G-R5YF3VLQXJ",
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+
+		<script src="app.js"></script>
+	</body>
+</html>
