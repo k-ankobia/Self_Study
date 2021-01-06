@@ -9,7 +9,7 @@
   "author": "Kwaku Ankobia",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "https": "^1.0.0",
     "node-fetch": "^2.6.0",
     "request": "^2.88.2"
